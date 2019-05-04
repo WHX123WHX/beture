@@ -1,0 +1,1531 @@
+/*热门专业*/
+/*banner*/
+.major_banner {
+  width: 100%;
+  height: 5.6rem;
+  background: url("../images/major/zybanner.png") no-repeat 0 0;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+}
+/*fashion    design     art     photography    other     fashion_major*/
+.fashion,
+.design,
+.art,
+.photography,
+.other,
+.fashion_major {
+  width: 100%;
+}
+.fashion .design_title,
+.design .design_title,
+.art .design_title,
+.photography .design_title,
+.other .design_title,
+.fashion_major .design_title,
+.fashion .art_title,
+.design .art_title,
+.art .art_title,
+.photography .art_title,
+.other .art_title,
+.fashion_major .art_title,
+.fashion .photography_title,
+.design .photography_title,
+.art .photography_title,
+.photography .photography_title,
+.other .photography_title,
+.fashion_major .photography_title,
+.fashion .other_title,
+.design .other_title,
+.art .other_title,
+.photography .other_title,
+.other .other_title,
+.fashion_major .other_title,
+.fashion .fashion_major_title,
+.design .fashion_major_title,
+.art .fashion_major_title,
+.photography .fashion_major_title,
+.other .fashion_major_title,
+.fashion_major .fashion_major_title {
+  width: 10%;
+  height: 2.23333333rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.fashion .design_title .design_Chinese_name,
+.design .design_title .design_Chinese_name,
+.art .design_title .design_Chinese_name,
+.photography .design_title .design_Chinese_name,
+.other .design_title .design_Chinese_name,
+.fashion_major .design_title .design_Chinese_name,
+.fashion .art_title .design_Chinese_name,
+.design .art_title .design_Chinese_name,
+.art .art_title .design_Chinese_name,
+.photography .art_title .design_Chinese_name,
+.other .art_title .design_Chinese_name,
+.fashion_major .art_title .design_Chinese_name,
+.fashion .photography_title .design_Chinese_name,
+.design .photography_title .design_Chinese_name,
+.art .photography_title .design_Chinese_name,
+.photography .photography_title .design_Chinese_name,
+.other .photography_title .design_Chinese_name,
+.fashion_major .photography_title .design_Chinese_name,
+.fashion .other_title .design_Chinese_name,
+.design .other_title .design_Chinese_name,
+.art .other_title .design_Chinese_name,
+.photography .other_title .design_Chinese_name,
+.other .other_title .design_Chinese_name,
+.fashion_major .other_title .design_Chinese_name,
+.fashion .fashion_major_title .design_Chinese_name,
+.design .fashion_major_title .design_Chinese_name,
+.art .fashion_major_title .design_Chinese_name,
+.photography .fashion_major_title .design_Chinese_name,
+.other .fashion_major_title .design_Chinese_name,
+.fashion_major .fashion_major_title .design_Chinese_name,
+.fashion .design_title .art_Chinese_name,
+.design .design_title .art_Chinese_name,
+.art .design_title .art_Chinese_name,
+.photography .design_title .art_Chinese_name,
+.other .design_title .art_Chinese_name,
+.fashion_major .design_title .art_Chinese_name,
+.fashion .art_title .art_Chinese_name,
+.design .art_title .art_Chinese_name,
+.art .art_title .art_Chinese_name,
+.photography .art_title .art_Chinese_name,
+.other .art_title .art_Chinese_name,
+.fashion_major .art_title .art_Chinese_name,
+.fashion .photography_title .art_Chinese_name,
+.design .photography_title .art_Chinese_name,
+.art .photography_title .art_Chinese_name,
+.photography .photography_title .art_Chinese_name,
+.other .photography_title .art_Chinese_name,
+.fashion_major .photography_title .art_Chinese_name,
+.fashion .other_title .art_Chinese_name,
+.design .other_title .art_Chinese_name,
+.art .other_title .art_Chinese_name,
+.photography .other_title .art_Chinese_name,
+.other .other_title .art_Chinese_name,
+.fashion_major .other_title .art_Chinese_name,
+.fashion .fashion_major_title .art_Chinese_name,
+.design .fashion_major_title .art_Chinese_name,
+.art .fashion_major_title .art_Chinese_name,
+.photography .fashion_major_title .art_Chinese_name,
+.other .fashion_major_title .art_Chinese_name,
+.fashion_major .fashion_major_title .art_Chinese_name,
+.fashion .design_title .photography_Chinese_name,
+.design .design_title .photography_Chinese_name,
+.art .design_title .photography_Chinese_name,
+.photography .design_title .photography_Chinese_name,
+.other .design_title .photography_Chinese_name,
+.fashion_major .design_title .photography_Chinese_name,
+.fashion .art_title .photography_Chinese_name,
+.design .art_title .photography_Chinese_name,
+.art .art_title .photography_Chinese_name,
+.photography .art_title .photography_Chinese_name,
+.other .art_title .photography_Chinese_name,
+.fashion_major .art_title .photography_Chinese_name,
+.fashion .photography_title .photography_Chinese_name,
+.design .photography_title .photography_Chinese_name,
+.art .photography_title .photography_Chinese_name,
+.photography .photography_title .photography_Chinese_name,
+.other .photography_title .photography_Chinese_name,
+.fashion_major .photography_title .photography_Chinese_name,
+.fashion .other_title .photography_Chinese_name,
+.design .other_title .photography_Chinese_name,
+.art .other_title .photography_Chinese_name,
+.photography .other_title .photography_Chinese_name,
+.other .other_title .photography_Chinese_name,
+.fashion_major .other_title .photography_Chinese_name,
+.fashion .fashion_major_title .photography_Chinese_name,
+.design .fashion_major_title .photography_Chinese_name,
+.art .fashion_major_title .photography_Chinese_name,
+.photography .fashion_major_title .photography_Chinese_name,
+.other .fashion_major_title .photography_Chinese_name,
+.fashion_major .fashion_major_title .photography_Chinese_name,
+.fashion .design_title .other_Chinese_name,
+.design .design_title .other_Chinese_name,
+.art .design_title .other_Chinese_name,
+.photography .design_title .other_Chinese_name,
+.other .design_title .other_Chinese_name,
+.fashion_major .design_title .other_Chinese_name,
+.fashion .art_title .other_Chinese_name,
+.design .art_title .other_Chinese_name,
+.art .art_title .other_Chinese_name,
+.photography .art_title .other_Chinese_name,
+.other .art_title .other_Chinese_name,
+.fashion_major .art_title .other_Chinese_name,
+.fashion .photography_title .other_Chinese_name,
+.design .photography_title .other_Chinese_name,
+.art .photography_title .other_Chinese_name,
+.photography .photography_title .other_Chinese_name,
+.other .photography_title .other_Chinese_name,
+.fashion_major .photography_title .other_Chinese_name,
+.fashion .other_title .other_Chinese_name,
+.design .other_title .other_Chinese_name,
+.art .other_title .other_Chinese_name,
+.photography .other_title .other_Chinese_name,
+.other .other_title .other_Chinese_name,
+.fashion_major .other_title .other_Chinese_name,
+.fashion .fashion_major_title .other_Chinese_name,
+.design .fashion_major_title .other_Chinese_name,
+.art .fashion_major_title .other_Chinese_name,
+.photography .fashion_major_title .other_Chinese_name,
+.other .fashion_major_title .other_Chinese_name,
+.fashion_major .fashion_major_title .other_Chinese_name,
+.fashion .design_title .fashion_major_Chinese_name,
+.design .design_title .fashion_major_Chinese_name,
+.art .design_title .fashion_major_Chinese_name,
+.photography .design_title .fashion_major_Chinese_name,
+.other .design_title .fashion_major_Chinese_name,
+.fashion_major .design_title .fashion_major_Chinese_name,
+.fashion .art_title .fashion_major_Chinese_name,
+.design .art_title .fashion_major_Chinese_name,
+.art .art_title .fashion_major_Chinese_name,
+.photography .art_title .fashion_major_Chinese_name,
+.other .art_title .fashion_major_Chinese_name,
+.fashion_major .art_title .fashion_major_Chinese_name,
+.fashion .photography_title .fashion_major_Chinese_name,
+.design .photography_title .fashion_major_Chinese_name,
+.art .photography_title .fashion_major_Chinese_name,
+.photography .photography_title .fashion_major_Chinese_name,
+.other .photography_title .fashion_major_Chinese_name,
+.fashion_major .photography_title .fashion_major_Chinese_name,
+.fashion .other_title .fashion_major_Chinese_name,
+.design .other_title .fashion_major_Chinese_name,
+.art .other_title .fashion_major_Chinese_name,
+.photography .other_title .fashion_major_Chinese_name,
+.other .other_title .fashion_major_Chinese_name,
+.fashion_major .other_title .fashion_major_Chinese_name,
+.fashion .fashion_major_title .fashion_major_Chinese_name,
+.design .fashion_major_title .fashion_major_Chinese_name,
+.art .fashion_major_title .fashion_major_Chinese_name,
+.photography .fashion_major_title .fashion_major_Chinese_name,
+.other .fashion_major_title .fashion_major_Chinese_name,
+.fashion_major .fashion_major_title .fashion_major_Chinese_name {
+  font-size: 0.6rem;
+  color: #000;
+  position: absolute;
+  top: 1.26666667rem;
+  left: 1.66666667rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.fashion .design_title .design_English_name,
+.design .design_title .design_English_name,
+.art .design_title .design_English_name,
+.photography .design_title .design_English_name,
+.other .design_title .design_English_name,
+.fashion_major .design_title .design_English_name,
+.fashion .art_title .design_English_name,
+.design .art_title .design_English_name,
+.art .art_title .design_English_name,
+.photography .art_title .design_English_name,
+.other .art_title .design_English_name,
+.fashion_major .art_title .design_English_name,
+.fashion .photography_title .design_English_name,
+.design .photography_title .design_English_name,
+.art .photography_title .design_English_name,
+.photography .photography_title .design_English_name,
+.other .photography_title .design_English_name,
+.fashion_major .photography_title .design_English_name,
+.fashion .other_title .design_English_name,
+.design .other_title .design_English_name,
+.art .other_title .design_English_name,
+.photography .other_title .design_English_name,
+.other .other_title .design_English_name,
+.fashion_major .other_title .design_English_name,
+.fashion .fashion_major_title .design_English_name,
+.design .fashion_major_title .design_English_name,
+.art .fashion_major_title .design_English_name,
+.photography .fashion_major_title .design_English_name,
+.other .fashion_major_title .design_English_name,
+.fashion_major .fashion_major_title .design_English_name,
+.fashion .design_title .art_English_name,
+.design .design_title .art_English_name,
+.art .design_title .art_English_name,
+.photography .design_title .art_English_name,
+.other .design_title .art_English_name,
+.fashion_major .design_title .art_English_name,
+.fashion .art_title .art_English_name,
+.design .art_title .art_English_name,
+.art .art_title .art_English_name,
+.photography .art_title .art_English_name,
+.other .art_title .art_English_name,
+.fashion_major .art_title .art_English_name,
+.fashion .photography_title .art_English_name,
+.design .photography_title .art_English_name,
+.art .photography_title .art_English_name,
+.photography .photography_title .art_English_name,
+.other .photography_title .art_English_name,
+.fashion_major .photography_title .art_English_name,
+.fashion .other_title .art_English_name,
+.design .other_title .art_English_name,
+.art .other_title .art_English_name,
+.photography .other_title .art_English_name,
+.other .other_title .art_English_name,
+.fashion_major .other_title .art_English_name,
+.fashion .fashion_major_title .art_English_name,
+.design .fashion_major_title .art_English_name,
+.art .fashion_major_title .art_English_name,
+.photography .fashion_major_title .art_English_name,
+.other .fashion_major_title .art_English_name,
+.fashion_major .fashion_major_title .art_English_name,
+.fashion .design_title .photography_English_name,
+.design .design_title .photography_English_name,
+.art .design_title .photography_English_name,
+.photography .design_title .photography_English_name,
+.other .design_title .photography_English_name,
+.fashion_major .design_title .photography_English_name,
+.fashion .art_title .photography_English_name,
+.design .art_title .photography_English_name,
+.art .art_title .photography_English_name,
+.photography .art_title .photography_English_name,
+.other .art_title .photography_English_name,
+.fashion_major .art_title .photography_English_name,
+.fashion .photography_title .photography_English_name,
+.design .photography_title .photography_English_name,
+.art .photography_title .photography_English_name,
+.photography .photography_title .photography_English_name,
+.other .photography_title .photography_English_name,
+.fashion_major .photography_title .photography_English_name,
+.fashion .other_title .photography_English_name,
+.design .other_title .photography_English_name,
+.art .other_title .photography_English_name,
+.photography .other_title .photography_English_name,
+.other .other_title .photography_English_name,
+.fashion_major .other_title .photography_English_name,
+.fashion .fashion_major_title .photography_English_name,
+.design .fashion_major_title .photography_English_name,
+.art .fashion_major_title .photography_English_name,
+.photography .fashion_major_title .photography_English_name,
+.other .fashion_major_title .photography_English_name,
+.fashion_major .fashion_major_title .photography_English_name,
+.fashion .design_title .other_English_name,
+.design .design_title .other_English_name,
+.art .design_title .other_English_name,
+.photography .design_title .other_English_name,
+.other .design_title .other_English_name,
+.fashion_major .design_title .other_English_name,
+.fashion .art_title .other_English_name,
+.design .art_title .other_English_name,
+.art .art_title .other_English_name,
+.photography .art_title .other_English_name,
+.other .art_title .other_English_name,
+.fashion_major .art_title .other_English_name,
+.fashion .photography_title .other_English_name,
+.design .photography_title .other_English_name,
+.art .photography_title .other_English_name,
+.photography .photography_title .other_English_name,
+.other .photography_title .other_English_name,
+.fashion_major .photography_title .other_English_name,
+.fashion .other_title .other_English_name,
+.design .other_title .other_English_name,
+.art .other_title .other_English_name,
+.photography .other_title .other_English_name,
+.other .other_title .other_English_name,
+.fashion_major .other_title .other_English_name,
+.fashion .fashion_major_title .other_English_name,
+.design .fashion_major_title .other_English_name,
+.art .fashion_major_title .other_English_name,
+.photography .fashion_major_title .other_English_name,
+.other .fashion_major_title .other_English_name,
+.fashion_major .fashion_major_title .other_English_name,
+.fashion .design_title .fashion_major_English_name,
+.design .design_title .fashion_major_English_name,
+.art .design_title .fashion_major_English_name,
+.photography .design_title .fashion_major_English_name,
+.other .design_title .fashion_major_English_name,
+.fashion_major .design_title .fashion_major_English_name,
+.fashion .art_title .fashion_major_English_name,
+.design .art_title .fashion_major_English_name,
+.art .art_title .fashion_major_English_name,
+.photography .art_title .fashion_major_English_name,
+.other .art_title .fashion_major_English_name,
+.fashion_major .art_title .fashion_major_English_name,
+.fashion .photography_title .fashion_major_English_name,
+.design .photography_title .fashion_major_English_name,
+.art .photography_title .fashion_major_English_name,
+.photography .photography_title .fashion_major_English_name,
+.other .photography_title .fashion_major_English_name,
+.fashion_major .photography_title .fashion_major_English_name,
+.fashion .other_title .fashion_major_English_name,
+.design .other_title .fashion_major_English_name,
+.art .other_title .fashion_major_English_name,
+.photography .other_title .fashion_major_English_name,
+.other .other_title .fashion_major_English_name,
+.fashion_major .other_title .fashion_major_English_name,
+.fashion .fashion_major_title .fashion_major_English_name,
+.design .fashion_major_title .fashion_major_English_name,
+.art .fashion_major_title .fashion_major_English_name,
+.photography .fashion_major_title .fashion_major_English_name,
+.other .fashion_major_title .fashion_major_English_name,
+.fashion_major .fashion_major_title .fashion_major_English_name {
+  font-size: 0.36666667rem;
+  color: #9e9d9d;
+  position: absolute;
+  left: 3.63333333rem;
+  top: 1.5rem;
+  font-weight: bold;
+}
+.fashion .fashion_list,
+.design .fashion_list,
+.art .fashion_list,
+.photography .fashion_list,
+.other .fashion_list,
+.fashion_major .fashion_list,
+.fashion .design_list,
+.design .design_list,
+.art .design_list,
+.photography .design_list,
+.other .design_list,
+.fashion_major .design_list,
+.fashion .art_list,
+.design .art_list,
+.art .art_list,
+.photography .art_list,
+.other .art_list,
+.fashion_major .art_list,
+.fashion .photography_list,
+.design .photography_list,
+.art .photography_list,
+.photography .photography_list,
+.other .photography_list,
+.fashion_major .photography_list,
+.fashion .other_list,
+.design .other_list,
+.art .other_list,
+.photography .other_list,
+.other .other_list,
+.fashion_major .other_list,
+.fashion .fashion_major_list,
+.design .fashion_major_list,
+.art .fashion_major_list,
+.photography .fashion_major_list,
+.other .fashion_major_list,
+.fashion_major .fashion_major_list {
+  width: 100%;
+}
+.fashion .fashion_list a,
+.design .fashion_list a,
+.art .fashion_list a,
+.photography .fashion_list a,
+.other .fashion_list a,
+.fashion_major .fashion_list a,
+.fashion .design_list a,
+.design .design_list a,
+.art .design_list a,
+.photography .design_list a,
+.other .design_list a,
+.fashion_major .design_list a,
+.fashion .art_list a,
+.design .art_list a,
+.art .art_list a,
+.photography .art_list a,
+.other .art_list a,
+.fashion_major .art_list a,
+.fashion .photography_list a,
+.design .photography_list a,
+.art .photography_list a,
+.photography .photography_list a,
+.other .photography_list a,
+.fashion_major .photography_list a,
+.fashion .other_list a,
+.design .other_list a,
+.art .other_list a,
+.photography .other_list a,
+.other .other_list a,
+.fashion_major .other_list a,
+.fashion .fashion_major_list a,
+.design .fashion_major_list a,
+.art .fashion_major_list a,
+.photography .fashion_major_list a,
+.other .fashion_major_list a,
+.fashion_major .fashion_major_list a {
+  display: inline-block;
+  float: left;
+  margin-bottom: 0.4rem;
+}
+.fashion .fashion_list a div,
+.design .fashion_list a div,
+.art .fashion_list a div,
+.photography .fashion_list a div,
+.other .fashion_list a div,
+.fashion_major .fashion_list a div,
+.fashion .design_list a div,
+.design .design_list a div,
+.art .design_list a div,
+.photography .design_list a div,
+.other .design_list a div,
+.fashion_major .design_list a div,
+.fashion .art_list a div,
+.design .art_list a div,
+.art .art_list a div,
+.photography .art_list a div,
+.other .art_list a div,
+.fashion_major .art_list a div,
+.fashion .photography_list a div,
+.design .photography_list a div,
+.art .photography_list a div,
+.photography .photography_list a div,
+.other .photography_list a div,
+.fashion_major .photography_list a div,
+.fashion .other_list a div,
+.design .other_list a div,
+.art .other_list a div,
+.photography .other_list a div,
+.other .other_list a div,
+.fashion_major .other_list a div,
+.fashion .fashion_major_list a div,
+.design .fashion_major_list a div,
+.art .fashion_major_list a div,
+.photography .fashion_major_list a div,
+.other .fashion_major_list a div,
+.fashion_major .fashion_major_list a div {
+  width: 5.16666667rem;
+  height: 2.03333333rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+.fashion .fashion_list a div h6,
+.design .fashion_list a div h6,
+.art .fashion_list a div h6,
+.photography .fashion_list a div h6,
+.other .fashion_list a div h6,
+.fashion_major .fashion_list a div h6,
+.fashion .design_list a div h6,
+.design .design_list a div h6,
+.art .design_list a div h6,
+.photography .design_list a div h6,
+.other .design_list a div h6,
+.fashion_major .design_list a div h6,
+.fashion .art_list a div h6,
+.design .art_list a div h6,
+.art .art_list a div h6,
+.photography .art_list a div h6,
+.other .art_list a div h6,
+.fashion_major .art_list a div h6,
+.fashion .photography_list a div h6,
+.design .photography_list a div h6,
+.art .photography_list a div h6,
+.photography .photography_list a div h6,
+.other .photography_list a div h6,
+.fashion_major .photography_list a div h6,
+.fashion .other_list a div h6,
+.design .other_list a div h6,
+.art .other_list a div h6,
+.photography .other_list a div h6,
+.other .other_list a div h6,
+.fashion_major .other_list a div h6,
+.fashion .fashion_major_list a div h6,
+.design .fashion_major_list a div h6,
+.art .fashion_major_list a div h6,
+.photography .fashion_major_list a div h6,
+.other .fashion_major_list a div h6,
+.fashion_major .fashion_major_list a div h6 {
+  font-size: 0.46666667rem;
+  color: #000;
+  font-weight: bold;
+  line-height: 0.8rem;
+  box-sizing: border-box;
+  padding-top: 0.4rem;
+  padding-left: 0.16666667rem;
+}
+.fashion .fashion_list a div p,
+.design .fashion_list a div p,
+.art .fashion_list a div p,
+.photography .fashion_list a div p,
+.other .fashion_list a div p,
+.fashion_major .fashion_list a div p,
+.fashion .design_list a div p,
+.design .design_list a div p,
+.art .design_list a div p,
+.photography .design_list a div p,
+.other .design_list a div p,
+.fashion_major .design_list a div p,
+.fashion .art_list a div p,
+.design .art_list a div p,
+.art .art_list a div p,
+.photography .art_list a div p,
+.other .art_list a div p,
+.fashion_major .art_list a div p,
+.fashion .photography_list a div p,
+.design .photography_list a div p,
+.art .photography_list a div p,
+.photography .photography_list a div p,
+.other .photography_list a div p,
+.fashion_major .photography_list a div p,
+.fashion .other_list a div p,
+.design .other_list a div p,
+.art .other_list a div p,
+.photography .other_list a div p,
+.other .other_list a div p,
+.fashion_major .other_list a div p,
+.fashion .fashion_major_list a div p,
+.design .fashion_major_list a div p,
+.art .fashion_major_list a div p,
+.photography .fashion_major_list a div p,
+.other .fashion_major_list a div p,
+.fashion_major .fashion_major_list a div p {
+  font-size: 0.3rem;
+  font-style: normal;
+  color: #9e9d9d;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 0.16666667rem;
+}
+.fashion .fashion_list a div img,
+.design .fashion_list a div img,
+.art .fashion_list a div img,
+.photography .fashion_list a div img,
+.other .fashion_list a div img,
+.fashion_major .fashion_list a div img,
+.fashion .design_list a div img,
+.design .design_list a div img,
+.art .design_list a div img,
+.photography .design_list a div img,
+.other .design_list a div img,
+.fashion_major .design_list a div img,
+.fashion .art_list a div img,
+.design .art_list a div img,
+.art .art_list a div img,
+.photography .art_list a div img,
+.other .art_list a div img,
+.fashion_major .art_list a div img,
+.fashion .photography_list a div img,
+.design .photography_list a div img,
+.art .photography_list a div img,
+.photography .photography_list a div img,
+.other .photography_list a div img,
+.fashion_major .photography_list a div img,
+.fashion .other_list a div img,
+.design .other_list a div img,
+.art .other_list a div img,
+.photography .other_list a div img,
+.other .other_list a div img,
+.fashion_major .other_list a div img,
+.fashion .fashion_major_list a div img,
+.design .fashion_major_list a div img,
+.art .fashion_major_list a div img,
+.photography .fashion_major_list a div img,
+.other .fashion_major_list a div img,
+.fashion_major .fashion_major_list a div img {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.33333333rem;
+  left: 3.63333333rem;
+}
+.fashion .fashion_list a:nth-child(2n-1),
+.design .fashion_list a:nth-child(2n-1),
+.art .fashion_list a:nth-child(2n-1),
+.photography .fashion_list a:nth-child(2n-1),
+.other .fashion_list a:nth-child(2n-1),
+.fashion_major .fashion_list a:nth-child(2n-1),
+.fashion .design_list a:nth-child(2n-1),
+.design .design_list a:nth-child(2n-1),
+.art .design_list a:nth-child(2n-1),
+.photography .design_list a:nth-child(2n-1),
+.other .design_list a:nth-child(2n-1),
+.fashion_major .design_list a:nth-child(2n-1),
+.fashion .art_list a:nth-child(2n-1),
+.design .art_list a:nth-child(2n-1),
+.art .art_list a:nth-child(2n-1),
+.photography .art_list a:nth-child(2n-1),
+.other .art_list a:nth-child(2n-1),
+.fashion_major .art_list a:nth-child(2n-1),
+.fashion .photography_list a:nth-child(2n-1),
+.design .photography_list a:nth-child(2n-1),
+.art .photography_list a:nth-child(2n-1),
+.photography .photography_list a:nth-child(2n-1),
+.other .photography_list a:nth-child(2n-1),
+.fashion_major .photography_list a:nth-child(2n-1),
+.fashion .other_list a:nth-child(2n-1),
+.design .other_list a:nth-child(2n-1),
+.art .other_list a:nth-child(2n-1),
+.photography .other_list a:nth-child(2n-1),
+.other .other_list a:nth-child(2n-1),
+.fashion_major .other_list a:nth-child(2n-1),
+.fashion .fashion_major_list a:nth-child(2n-1),
+.design .fashion_major_list a:nth-child(2n-1),
+.art .fashion_major_list a:nth-child(2n-1),
+.photography .fashion_major_list a:nth-child(2n-1),
+.other .fashion_major_list a:nth-child(2n-1),
+.fashion_major .fashion_major_list a:nth-child(2n-1) {
+  margin-left: 0.6rem;
+  margin-right: 0.45rem;
+}
+.fashion .fashion_list a:last-child div,
+.design .fashion_list a:last-child div,
+.art .fashion_list a:last-child div,
+.photography .fashion_list a:last-child div,
+.other .fashion_list a:last-child div,
+.fashion_major .fashion_list a:last-child div,
+.fashion .design_list a:last-child div,
+.design .design_list a:last-child div,
+.art .design_list a:last-child div,
+.photography .design_list a:last-child div,
+.other .design_list a:last-child div,
+.fashion_major .design_list a:last-child div,
+.fashion .art_list a:last-child div,
+.design .art_list a:last-child div,
+.art .art_list a:last-child div,
+.photography .art_list a:last-child div,
+.other .art_list a:last-child div,
+.fashion_major .art_list a:last-child div,
+.fashion .photography_list a:last-child div,
+.design .photography_list a:last-child div,
+.art .photography_list a:last-child div,
+.photography .photography_list a:last-child div,
+.other .photography_list a:last-child div,
+.fashion_major .photography_list a:last-child div,
+.fashion .other_list a:last-child div,
+.design .other_list a:last-child div,
+.art .other_list a:last-child div,
+.photography .other_list a:last-child div,
+.other .other_list a:last-child div,
+.fashion_major .other_list a:last-child div,
+.fashion .fashion_major_list a:last-child div,
+.design .fashion_major_list a:last-child div,
+.art .fashion_major_list a:last-child div,
+.photography .fashion_major_list a:last-child div,
+.other .fashion_major_list a:last-child div,
+.fashion_major .fashion_major_list a:last-child div {
+  margin-bottom: 0;
+}
+.fashion .fashion_list a:nth-last-child(2) div,
+.design .fashion_list a:nth-last-child(2) div,
+.art .fashion_list a:nth-last-child(2) div,
+.photography .fashion_list a:nth-last-child(2) div,
+.other .fashion_list a:nth-last-child(2) div,
+.fashion_major .fashion_list a:nth-last-child(2) div,
+.fashion .design_list a:nth-last-child(2) div,
+.design .design_list a:nth-last-child(2) div,
+.art .design_list a:nth-last-child(2) div,
+.photography .design_list a:nth-last-child(2) div,
+.other .design_list a:nth-last-child(2) div,
+.fashion_major .design_list a:nth-last-child(2) div,
+.fashion .art_list a:nth-last-child(2) div,
+.design .art_list a:nth-last-child(2) div,
+.art .art_list a:nth-last-child(2) div,
+.photography .art_list a:nth-last-child(2) div,
+.other .art_list a:nth-last-child(2) div,
+.fashion_major .art_list a:nth-last-child(2) div,
+.fashion .photography_list a:nth-last-child(2) div,
+.design .photography_list a:nth-last-child(2) div,
+.art .photography_list a:nth-last-child(2) div,
+.photography .photography_list a:nth-last-child(2) div,
+.other .photography_list a:nth-last-child(2) div,
+.fashion_major .photography_list a:nth-last-child(2) div,
+.fashion .other_list a:nth-last-child(2) div,
+.design .other_list a:nth-last-child(2) div,
+.art .other_list a:nth-last-child(2) div,
+.photography .other_list a:nth-last-child(2) div,
+.other .other_list a:nth-last-child(2) div,
+.fashion_major .other_list a:nth-last-child(2) div,
+.fashion .fashion_major_list a:nth-last-child(2) div,
+.design .fashion_major_list a:nth-last-child(2) div,
+.art .fashion_major_list a:nth-last-child(2) div,
+.photography .fashion_major_list a:nth-last-child(2) div,
+.other .fashion_major_list a:nth-last-child(2) div,
+.fashion_major .fashion_major_list a:nth-last-child(2) div {
+  margin-bottom: 0;
+}
+.fashion .fashion_title {
+  width: 10%;
+  height: 1.81666667rem;
+  box-sizing: border-box;
+  padding-top: 0.46666667rem;
+  position: relative;
+}
+.fashion .fashion_title .fashion_logo {
+  width: 1.06666667rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0.66666667rem;
+  left: 0.63333333rem;
+}
+.fashion .fashion_title .fashion_Chinese_name {
+  font-size: 0.6rem;
+  color: #000;
+  position: absolute;
+  top: 0.83333333rem;
+  left: 1.7rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.fashion .fashion_title .fashion_English_name {
+  font-size: 0.36666667rem;
+  color: #9e9d9d;
+  position: absolute;
+  left: 3.63333333rem;
+  top: 1.03333333rem;
+  font-weight: bold;
+}
+.design .design_title .design_logo {
+  width: 0.81666667rem;
+  height: 0.81666667rem;
+  position: absolute;
+  top: 1.08333333rem;
+  left: 0.71666667rem;
+}
+.art .art_title .art_logo {
+  width: 0.56666667rem;
+  height: 0.86666667rem;
+  position: absolute;
+  top: 1.03333333rem;
+  left: 0.81666667rem;
+}
+.photography .photography_title .photography_logo {
+  width: 0.71666667rem;
+  height: 0.78333333rem;
+  position: absolute;
+  top: 1.11666667rem;
+  left: 0.7rem;
+}
+.other .other_title .other_logo {
+  width: 0.8rem;
+  height: 0.83333333rem;
+  position: absolute;
+  top: 1.08333333rem;
+  left: 0.7rem;
+}
+.fashion_major .fashion_major_title .fashion_major_logo {
+  width: 0.8rem;
+  height: 0.83333333rem;
+  position: absolute;
+  top: 1.08333333rem;
+  left: 0.7rem;
+}
+/*教师团队*/
+.teach_banner {
+  width: 100%;
+  height: 5.2rem;
+  background: url("../images/teacher_team/shizibanner.jpg") no-repeat 0 0;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+}
+.teach_high {
+  width: 100%;
+  height: 10.51666667rem;
+  background: url("../images/teacher_team/teach_high.png") no-repeat 0 0;
+  background-size: cover;
+}
+.creativity_course {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.creativity_course h1 {
+  font-size: 0.6rem;
+  color: #1e1e1e;
+  font-weight: bold;
+  padding-top: 0.96666667rem;
+  padding-bottom: 0.66666667rem;
+  text-align: center;
+}
+.creativity_course div {
+  width: 10.83333333rem;
+  height: 2.08333333rem;
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  margin-bottom: 0.51666667rem;
+}
+.creativity_course div img {
+  width: 1.71666667rem;
+  height: 1.71666667rem;
+  margin: 0.18333333rem 0.25rem 0 0.26666667rem;
+}
+.creativity_course div h5 {
+  font-size: 0.43333333rem;
+  color: #1e1e1e;
+  line-height: 0.76666667rem;
+  font-weight: bold;
+  padding-top: 0.1rem;
+}
+.creativity_course div p {
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+  color: #6e6d6d;
+}
+.creativity_course div:last-child {
+  margin-bottom: 0;
+}
+.teach_team {
+  width: 100%;
+  height: 11.2rem;
+  background: url("../images/teacher_team/vivi.png") no-repeat right 3.58333333rem;
+  background-color: #1E1E1E;
+  background-size: 5.13333333rem 7.66666667rem;
+}
+.teach_team h1 {
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 2.1rem;
+  text-align: center;
+  padding-bottom: 38px;
+  box-sizing: border-box;
+}
+.teach_team .team_left {
+  width: 4.66666667rem;
+  height: 7.56666667rem;
+}
+.teach_team .team_left img {
+  width: 100%;
+}
+.teach_team .team_right h5,
+.teach_team .team_right h6 {
+  font-size: 0.46666667rem;
+  color: #fff;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+.teach_team .team_right h5 {
+  padding-bottom: 0.33333333rem;
+}
+.teach_team .team_right p {
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 0.58333333rem;
+  padding-left: 0.5rem;
+}
+.other_teacher {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.other_teacher .returnee {
+  width: 6.58333333rem;
+  height: 1.05rem;
+  border-radius: 10px;
+  background: #cbcaca;
+  margin: 0.53333333rem auto 0;
+}
+.other_teacher .returnee span {
+  display: inline-block;
+  float: left;
+  width: 3.29166667rem;
+  font-size: 0.46666667rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.05rem;
+  text-align: center;
+}
+.other_teacher .returnee .active {
+  background: #e13131;
+  border-radius: 10px;
+}
+.other_teacher .teacher {
+  width: 10.83333333rem;
+  height: 6.3rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+.other_teacher .teacher img {
+  width: 2.33333333rem;
+  height: 2.33333333rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.75rem;
+  left: 0.65rem;
+  z-index: 999;
+}
+.other_teacher .teacher .teacher_txt {
+  width: 10.83333333rem;
+  height: 5.03333333rem;
+  background: #e13131;
+  border-radius: 10px;
+  position: relative;
+  top: 1.9rem;
+  box-sizing: border-box;
+}
+.other_teacher .teacher .teacher_txt h3 {
+  font-size: 0.46666667rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.05rem;
+  padding-top: 0.3rem;
+}
+.other_teacher .teacher .teacher_txt p {
+  font-size: 0.3rem;
+  color: #fff;
+  padding-left: 0.4rem;
+}
+.other_teacher .teacher .teacher_txt b {
+  display: block;
+  width: 100%;
+  height: 1.25rem;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.46666667rem;
+  color: #2f2f2f;
+  font-weight: bold;
+  line-height: 1.25rem;
+  box-shadow: 0px 6px 21px rgba(0, 0, 0, 0.15);
+}
+/*成功案例*/
+.succeed_banner {
+  width: 100%;
+  height: 5.56666667rem;
+  background: url("../images/succeed_case/succeed_banner.jpg") no-repeat 0 0;
+  background-size: cover;
+  margin-top: 1.16666667rem;
+  margin-bottom: 1rem;
+}
+.succeed_case {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.succeed_case .case {
+  width: 10.83333333rem;
+  height: 7.45rem;
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 0.35rem;
+}
+.succeed_case .case .case_top {
+  width: 100%;
+}
+.succeed_case .case .case_top img {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  margin: 0.18333333rem 0.46666667rem 0 0.36666667rem;
+}
+.succeed_case .case .case_top h3 {
+  font-size: 0.4rem;
+  color: #ff5f68;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 0.45rem;
+  padding-bottom: 0.13333333rem;
+}
+.succeed_case .case .case_top p {
+  font-size: 0.3rem;
+  color: #8f8f8f;
+  line-height: 0.5rem;
+  box-sizing: border-box;
+}
+.succeed_case .case .case_top p span {
+  color: #000;
+  font-weight: bold;
+}
+.succeed_case .case .case_top .major {
+  padding-left: 2.53333333rem;
+  padding-right: 0.5rem;
+}
+.succeed_case .case .case_bottom {
+  width: 100%;
+  height: 4.9rem;
+  background: url("../images/succeed_case/case1.png") no-repeat !important;
+}
+/*彼初工坊*/
+.workshop_banner {
+  width: 100%;
+  height: 5.61666667rem;
+  background: url("../images/workshop/gf.png") no-repeat 0 0;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+}
+.feature {
+  width: 100%;
+  height: 10.28333333rem;
+  background: #282727;
+}
+.feature h1 {
+  font-size: 0.6rem;
+  color: #ee94ba;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 0.73333333rem;
+  padding-bottom: 0.23333333rem;
+}
+.feature h5 {
+  font-size: 0.36666667rem;
+  color: #8f8e8e;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 1.43333333rem;
+}
+.feature .feature_course {
+  width: 10.8rem;
+  height: 2.3rem;
+  background: #313131;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 0.61666667rem;
+  margin-bottom: 1.11666667rem;
+}
+.feature .feature_course h2 {
+  font-size: 0.46666667rem;
+  color: #ee94ba;
+  position: absolute;
+  top: -0.63333333rem;
+  left: 0.63333333rem;
+}
+.feature .feature_course h2 span {
+  font-size: 0.91666667rem;
+}
+.feature .feature_course p {
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+  color: #8f8e8e;
+  box-sizing: border-box;
+  padding-top: 0.53333333rem;
+  padding-left: 0.7rem;
+}
+.fashion_major .fashion_major_list {
+  width: 100%;
+}
+.fashion_major .fashion_major_list a {
+  display: inline-block;
+  float: left;
+  margin-bottom: 0.4rem;
+}
+.fashion_major .fashion_major_list a div {
+  width: 5.16666667rem;
+  height: 2.03333333rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+.fashion_major .fashion_major_list a div img {
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 4px #f89dc3 solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.21666667rem;
+}
+.fashion_major .fashion_major_list a div h6 {
+  font-size: 0.46666667rem;
+  color: #f89dc3;
+  font-weight: bold;
+  line-height: 0.8rem;
+  box-sizing: border-box;
+  padding-top: 0.4rem;
+  padding-left: 2.33333333rem;
+}
+/*热门资讯*/
+.zx_banner {
+  width: 100%;
+  height: 5.56666667rem;
+  background: url("../images/information/zx_banner_02.png") no-repeat 0 0;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+}
+.zx_content {
+  width: 100%;
+}
+.zx_content ul {
+  width: 100%;
+  height: 1.08333333rem;
+  margin-bottom: 0.33333333rem;
+}
+.zx_content ul li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.zx_content ul li a {
+  font-size: 0.3rem;
+  color: #000;
+  line-height: 0.5rem;
+}
+.zx_content .content_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.zx_content .content_box .zx_details {
+  width: 10.8rem;
+  height: 1.91666667rem;
+  border-bottom: 1px #ccc solid;
+  margin-bottom: 0.16666667rem;
+}
+.zx_content .content_box .zx_details .zx_details_left {
+  width: 2.66666667rem;
+}
+.zx_content .content_box .zx_details .zx_details_left img {
+  width: 2.66666667rem;
+  height: 1.66666667rem;
+}
+.zx_content .content_box .zx_details .zx_details_right {
+  width: 8.13333333rem;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+}
+.zx_content .content_box .zx_details .zx_details_right a {
+  display: block;
+  font-size: 0.43333333rem;
+  color: #007bff;
+  line-height: 0.83333333rem;
+}
+.zx_content .content_box .zx_details .zx_details_right span {
+  display: block;
+  font-size: 0.5rem;
+  color: #616161;
+  box-sizing: border-box;
+  padding-top: 0.16666667rem;
+}
+.zx_content .content_box div:last-child {
+  margin-bottom: 0.5rem;
+}
+.school_pm {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+.school_pm img {
+  width: 10.8rem;
+  height: 5.61666667rem;
+}
+.beture_serve {
+  text-align: center;
+}
+.beture_serve img {
+  width: 10.8rem;
+  height: 3.73333333rem;
+}
+/*工坊课程详情*/
+.course_introduce {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.course_introduce h1 {
+  font-size: 0.93333333rem;
+  line-height: 2.1rem;
+}
+.course_introduce p {
+  font-size: 0.26666667rem;
+  color: #282727;
+  box-sizing: border-box;
+  padding: 0 1.05rem;
+  line-height: 0.56666667rem;
+}
+.refer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.refer .refer_list {
+  width: 10.73333333rem;
+  margin-bottom: 0.46666667rem;
+}
+.refer .refer_list .refer_list_left {
+  width: 2.1rem;
+}
+.refer .refer_list .refer_list_left img {
+  width: 1.1rem;
+  height: 1.16666667rem;
+  float: left;
+  margin-top: 0.38333333rem;
+}
+.refer .refer_list .refer_list_right h1 {
+  font-size: 0.5rem;
+  color: #000;
+  line-height: 1.25rem;
+}
+.refer .refer_list .refer_list_right p {
+  font-size: 0.3rem;
+  color: #393838;
+  line-height: 0.51666667rem;
+}
+.course {
+  width: 100%;
+}
+.course h1 {
+  font-size: 0.65rem;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2rem;
+}
+.course .course_wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course .course_wrap .course_content {
+  width: 10.73333333rem;
+  margin-bottom: 0.13333333rem;
+}
+.course .course_wrap .course_content .course_content_left {
+  width: 15%;
+}
+.course .course_wrap .course_content .course_content_left img {
+  width: 1.56666667rem;
+  height: 1.26666667rem;
+  margin-top: 0.33333333rem;
+}
+.course .course_wrap .course_content .course_content_right {
+  width: 85%;
+  box-sizing: border-box;
+  padding-left: 0.46666667rem;
+}
+.course .course_wrap .course_content .course_content_right h2 {
+  font-size: 0.5rem;
+  color: #000;
+  line-height: 1.25rem;
+}
+.course .course_wrap .course_content .course_content_right p {
+  font-size: 0.3rem;
+  color: #393838;
+  line-height: 0.51666667rem;
+}
+.show_result {
+  width: 100%;
+}
+.show_result h1 {
+  font-size: 0.65rem;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2rem;
+}
+.show_result .result_wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.show_result .result_wrap .result_list {
+  width: 5.16666667rem;
+  height: 3.6rem;
+  background: #000;
+  margin-bottom: 0.16666667rem;
+}
+/*院校详情*/
+.school_banner {
+  width: 100%;
+  height: 7.15rem;
+  background: url("../images/school/banner.png") no-repeat 0 0;
+  background-size: 100%;
+  margin-top: 1.16666667rem;
+}
+.school_introduce {
+  width: 100%;
+  position: relative;
+}
+.school_introduce img {
+  width: 3.65rem;
+  height: 3.53333333rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -1.81666667rem;
+  right: 0.3rem;
+}
+.school_introduce h1 {
+  font-size: 0.66666667rem;
+  color: #000;
+  box-sizing: border-box;
+  padding: 1.6rem 0 0.16666667rem 0.6rem;
+}
+.school_introduce h3,
+.school_introduce p {
+  font-size: 0.3rem;
+  color: #000;
+  box-sizing: border-box;
+  padding-left: 0.6rem;
+}
+.school_introduce h3 {
+  padding-bottom: 0.41666667rem;
+}
+.school_introduce p {
+  padding-bottom: 0.6rem;
+}
+.school_introduce .school_introduce_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.school_introduce .school_introduce_list .list1,
+.school_introduce .school_introduce_list .list2 {
+  width: 11.03333333rem;
+  box-shadow: 0 9px 27px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 0.35rem;
+  position: relative;
+}
+.school_introduce .school_introduce_list .list1 p,
+.school_introduce .school_introduce_list .list2 p {
+  font-size: 0.43333333rem;
+  color: #262626;
+  line-height: 0.93333333rem;
+}
+.school_introduce .school_introduce_list .list1 p span,
+.school_introduce .school_introduce_list .list2 p span {
+  box-sizing: border-box;
+  padding-right: 0.26666667rem;
+}
+.school_introduce .school_introduce_list .list2 p b {
+  position: absolute;
+  top: 0.5rem;
+}
+.school_introduce .school_introduce_list .list2 p i {
+  font-size: 0.6rem;
+  color: #9f9f9f;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.66666667rem;
+}
+.school_introduce .school_introduce_list .list2 p span {
+  position: absolute;
+  top: 0.5rem;
+  left: 3.33333333rem;
+}
+.school_introduce .school_introduce_list .list2 .school_jieshao {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 9px 27px rgba(0, 0, 0, 0.2);
+}
+.school_introduce .school_introduce_list .list2 .school_jieshao h4 {
+  font-size: 0.4rem;
+  color: red;
+  font-weight: bold;
+}
+.school_introduce .school_introduce_list .list2 .school_jieshao h5 {
+  font-size: 0.4rem;
+  color: #000;
+}
+/*专业详情介绍*/
+.major_name {
+  width: 100%;
+  height: 3.21666667rem;
+  background: #222;
+  margin-top: 1.16666667rem;
+  box-sizing: border-box;
+}
+.major_name h1 {
+  font-size: 0.66666667rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.75rem 0 0.25rem 0.41666667rem;
+}
+.major_name p {
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 0.33333333rem;
+}
+.major_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.major_content .major_introduction {
+  width: 11.16666667rem;
+  font-size: 0.46666667rem;
+  color: #000;
+  line-height: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.major_content .major_introduction h2 {
+  font-size: 0.56666667rem;
+  color: #FF5B61;
+  font-weight: bold;
+  line-height: 0.83333333rem;
+  box-sizing: border-box;
+  padding-top: 0.33333333rem;
+}
+.major_content .major_introduction span {
+  font-size: 0.2rem;
+  color: #ccc;
+}
+.school_rank {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.school_rank h1 {
+  font-size: 0.6rem;
+  color: #000;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0.5rem;
+}
+.school_rank .nation {
+  width: 11.16666667rem;
+  height: 1rem;
+  margin: 0 auto;
+  background: #CBCACA;
+  border-radius: 0.13333333rem;
+}
+.school_rank .nation li {
+  width: 33.33%;
+  height: 1rem;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  border-left: 1px #fff solid;
+}
+.school_rank .nation li a {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  display: block;
+  color: #fff;
+}
+.school_rank .grade {
+  width: 11.16666667rem;
+  background: #CBCACA;
+  height: 1rem;
+  margin: 0 auto;
+  border-radius: 0.13333333rem;
+  margin-bottom: 0.83333333rem;
+}
+.school_rank .grade div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  border-left: 1px #fff solid;
+  box-sizing: border-box;
+  color: #fff;
+}
+.school_rank .active {
+  background-color: #F84646;
+  border-radius: 0.13333333rem;
+}
+.school_rank .school_list {
+  width: 11.16666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.school_rank .school_list .school {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.school_rank .school_list .school .school_pic {
+  width: 30%;
+  text-align: center;
+}
+.school_rank .school_list .school .school_pic img {
+  width: 1.26666667rem;
+  height: 1.26666667rem;
+  border-radius: 50%;
+}
+.school_rank .school_list .school .school_txt {
+  width: 70%;
+}
+.school_rank .school_list .school .school_txt h6 {
+  font-size: 0.4rem;
+  color: #000;
+}
+.school_rank .school_list .school .school_txt p {
+  font-size: 0.36666667rem;
+  color: #a8a8a8;
+}
